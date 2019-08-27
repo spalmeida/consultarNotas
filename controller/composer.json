@@ -1,0 +1,18 @@
+{
+	"require": {
+		"nfephp-org/sped-nfe": "^5.0",
+		"monolog/monolog": "^1.24",
+		"nfephp-org/sped-da": "^0.1.23",
+		"nezamy/route": "^1.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Notas\\": "src/Notas",
+			"Connect\\": "src/Connect",
+			"Utility\\": "src/Utility",
+			"Rotina\\": "src/Rotinas"
+		},
+
+		"files": ["src/Config/functions.php"]
+	}
+}
